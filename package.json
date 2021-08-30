@@ -1,0 +1,26 @@
+{
+  "name": "minitrello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.16.2",
+    "json-server": "^0.16.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "cross-browser-polyfill": "^1.0.5",
+    "whatwg-fetch": "^3.6.2"
+  }
+}

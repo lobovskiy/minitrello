@@ -1,0 +1,86 @@
+{
+  "boards": [
+    {
+      "name": "Кося",
+      "id": 1,
+      "lists": [
+        {
+          "name": "Понедельник",
+          "elements": [
+            {
+              "content": "Поспать",
+              "isChecked": true
+            },
+            {
+              "content": "Посрать",
+              "isChecked": true
+            },
+            {
+              "content": "Поесть",
+              "isChecked": true
+            }
+          ]
+        },
+        {
+          "name": "Вторник",
+          "elements": [
+            {
+              "content": "Поноситься",
+              "isChecked": false
+            },
+            {
+              "content": "Посикать",
+              "isChecked": false
+            },
+            {
+              "content": "Побегать от Мелыча",
+              "isChecked": true
+            }
+          ]
+        },
+        {
+          "name": "Воскресенье",
+          "elements": [
+            {
+              "content": "Поспать",
+              "isChecked": true
+            },
+            {
+              "content": "Поспать 2",
+              "isChecked": true
+            },
+            {
+              "content": "Пережрать",
+              "isChecked": false
+            },
+            {
+              "content": "Постричь ногти",
+              "isChecked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Антон С",
+      "id": 2,
+      "lists": [
+        {
+          "name": "Вторник",
+          "elements": [
+            {
+              "content": "Попить кофе",
+              "isChecked": true
+            },
+            {
+              "content": "Посплетничать",
+              "isChecked": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lists": [],
+  "elements": []
+}
