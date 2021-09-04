@@ -44,7 +44,8 @@ header, .header__container {
 }
 
 .lists_container {
-	display: flex;
+	display: block;
+	float: left;
 }
 
 .add_board__button, .boards_list {
@@ -67,11 +68,10 @@ header, .header__container {
 
 .list {
 	width: 300px;
-	height: fit-content;
+	height: min-content;
 	position: relative;
 	display: block;
-	justify-content: center;
-	align-items: center;
+	float: left;
 	background-color: #fff;
 	font-weight: 700;
 	color:#000;
@@ -100,8 +100,7 @@ header, .header__container {
 	position: relative;
 	height: 65px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	float: left;
 	background-color: #fff;
 	font-size: 12px;
 	font-weight: 700;
@@ -111,6 +110,13 @@ header, .header__container {
 	transition: .3s all;
 	outline: 0;
 	margin: 15px 20px 0 0;
+}
+
+.add_list__button h1 {
+	text-align: center;
+	margin: 15px auto;
+	font-size: 20px;
+	line-height: 1.6em;
 }
 
 .new_list__form {
@@ -174,6 +180,8 @@ header, .header__container {
 	font-size: 16px;
 	font-weight: 700;
 	margin-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .elements {
@@ -204,6 +212,7 @@ header, .header__container {
 	outline: 0;
 	margin: 15px auto;
 	padding: 5px;
+	cursor: move;
 }
 
 .new_board__form button {
@@ -227,7 +236,7 @@ header, .header__container {
 	font-weight: 700;
 }
 
-.close_btn {
+.close__btn {
 	position: absolute;
 	top: 15px;
 	right: 14px;
@@ -251,6 +260,7 @@ header, .header__container {
 	border: none;
 	background-color: transparent;
 	vertical-align: middle;
+	cursor: pointer;
 }
 
 .checked {
@@ -267,4 +277,8 @@ header, .header__container {
 
 .hide {
 	display:none
+}
+
+.selected {
+  opacity: 0.6;
 }

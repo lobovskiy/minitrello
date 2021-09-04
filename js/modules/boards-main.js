@@ -8,7 +8,7 @@ function renderBoardsPattern() {
 		<div class="container_left">
 			<div class="add_board__button btn_pointer">
 					<h1>Новая доска</h1>
-					<div class="close_btn btn_pointer hide">&times;</div>
+					<div class="close__btn btn_pointer hide">&times;</div>
 			</div>
 			<form action="#" class="new_board__form hide">
 				<h2>Название доски</h2>
@@ -43,7 +43,7 @@ function mainPage() {
 			}
 
 			const addBtn = document.querySelector('.add_board__button'),
-						closeBtn = document.querySelector('.close_btn'),
+						closeBtn = document.querySelector('.close__btn'),
 						newBoardForm = document.querySelector('form.new_board__form'),
 						formInput = newBoardForm.querySelector('.new_board__input');
 
@@ -58,7 +58,7 @@ function mainPage() {
 			}
 
 			function showAddForm(event) {
-				if (!event.target.matches('div.close_btn')) {
+				if (!event.target.matches('div.close__btn')) {
 					closeBtn.classList.remove('hide');
 					newBoardForm.classList.remove('hide');
 					formInput.focus();

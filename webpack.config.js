@@ -3,7 +3,7 @@
 let path = require('path');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './js/index.js',
   output: {
     filename: 'script.js',
