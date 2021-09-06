@@ -9,28 +9,42 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
-/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.array.slice.js */ "./node_modules/core-js/modules/es.array.slice.js");
-/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
-/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.from.js */ "./node_modules/core-js/modules/es.array.from.js");
-/* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.string.iterator.js */ "./node_modules/core-js/modules/es.string.iterator.js");
-/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.symbol.js */ "./node_modules/core-js/modules/es.symbol.js");
-/* harmony import */ var core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.symbol.description.js */ "./node_modules/core-js/modules/es.symbol.description.js");
-/* harmony import */ var core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.symbol.iterator.js */ "./node_modules/core-js/modules/es.symbol.iterator.js");
-/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/modules/es.array.iterator.js */ "./node_modules/core-js/modules/es.array.iterator.js");
-/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _list__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./list */ "./js/modules/list.js");
-/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
+/* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
+/* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.array.slice.js */ "./node_modules/core-js/modules/es.array.slice.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.array.from.js */ "./node_modules/core-js/modules/es.array.from.js");
+/* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/modules/es.string.iterator.js */ "./node_modules/core-js/modules/es.string.iterator.js");
+/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.symbol.js */ "./node_modules/core-js/modules/es.symbol.js");
+/* harmony import */ var core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_js__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/es.symbol.description.js */ "./node_modules/core-js/modules/es.symbol.description.js");
+/* harmony import */ var core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_description_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/modules/es.symbol.iterator.js */ "./node_modules/core-js/modules/es.symbol.iterator.js");
+/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! core-js/modules/es.array.iterator.js */ "./node_modules/core-js/modules/es.array.iterator.js");
+/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _list__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./list */ "./js/modules/list.js");
+/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
@@ -49,51 +63,64 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
+
+
+ // Объявляем переменные для хранения объекта доски и массива ее листов
+
 var boardObj;
-var boardLists = [];
+var boardLists = []; // Функция для навешивания на контейнер зоны сброса перетаскиваемого элемента
 
-function renderBoardPattern() {
-  var divBoardName = document.createElement('div'),
-      divLists = document.createElement('div');
-  divBoardName.classList.add('container');
-  divLists.classList.add('container');
-  divBoardName.innerHTML = "\n\t\t<div class=\"board_name\">\n\t\t\t\t<h1>".concat(boardObj.name, "</h1>\n\t\t</div>\n\t");
-  divLists.innerHTML = "\n\t\t<div class=\"lists_container\">\n\t\t\t<div class=\"add_list__button btn_pointer\">\n\t\t\t\t\t<h1>\u041D\u043E\u0432\u044B\u0439 \u0441\u043F\u0438\u0441\u043E\u043A</h1>\n\t\t\t</div>\n\t\t\t<form action=\"#\" class=\"new_list__form hide\">\n\t\t\t\t<input required placeholder=\"\u0421\u043F\u0438\u0441\u043E\u043A ".concat(boardLists.length + 1, "\" name=\"name\" type=\"text\" class=\"new_list__input\">\n\t\t\t\t<div class=\"close__btn btn_pointer hide\">&times;</div>\n\t\t\t</form>\n\t\t</div>\n\t");
-  document.querySelector('.main').append(divBoardName);
-  document.querySelector('.main').append(divLists);
-  setDragover(document.querySelector('.lists_container'));
-}
+function setDragover(container) {
+  container.addEventListener('dragover', function (evt) {
+    evt.preventDefault(); // Определяем перетаскиваемый элемент
+    // (по классу selected, присваиваемому событием dragstart - прописано в классе List)
+    // и элемент, над которым находится курсор
 
-function setDragover(listsContainer) {
-  listsContainer.addEventListener('dragover', function (evt) {
-    evt.preventDefault();
-    var activeElement = listsContainer.querySelector(".selected");
-    var currentElement = evt.target;
-    var isMoveable = activeElement !== currentElement && currentElement.classList.contains('element') || currentElement.classList.contains('empty_element');
+    var activeElement = container.querySelector('.selected');
+    var currentElement = evt.target; // Задаем триггер для проверки, что событие срабатывает не на перемещаемом элементе,
+    // и курсор находится над элементом списка element
+    // или пустым элементом empty_element в конце списка (нужен для сброса в пустой список)
+
+    var isMoveable = activeElement !== currentElement && currentElement.classList.contains('element') || currentElement.classList.contains('empty_element'); // Если триггер не сработал, то прерываем обработку
 
     if (!isMoveable) {
       return;
-    }
+    } // Вставляем перетаскиваемый элемент либо перед пустым элементом в конце списка,
+
 
     if (currentElement.classList.contains('empty_element')) {
       currentElement.parentNode.insertBefore(activeElement, currentElement);
     } else {
-      var nextElement = currentElement === activeElement.nextElementSibling ? currentElement.nextElementSibling : currentElement;
+      // либо определяем элемент, перед которым будем вставлять перетаскиваемый элемент
+      // (если курсор находится над элементом, расположенным после перетаскиваемого,
+      // то вставлять будем перед следующим еще дальше за ним -
+      // чтобы перетаскиваемый и следующий сразу после него элемент поменялись местами)
+      var nextElement = currentElement === activeElement.nextElementSibling ? currentElement.nextElementSibling : currentElement; // и вставляем перед ним перетаскиваемый элемент
+
       currentElement.parentNode.insertBefore(activeElement, nextElement);
     }
   });
 }
 
 function boardPage(currentBoardId) {
-  (0,_services_services__WEBPACK_IMPORTED_MODULE_11__.getData)("http://localhost:3000/boards/".concat(currentBoardId)).then(function (board) {
-    // throw new Error('Board is not exist'); записать в catch
-    boardObj = JSON.parse(JSON.stringify(board)); // Получаем массив списков, чтобы далее по ID доски выбрать из них те,
-    // что принадлежат открытой доске (считаю, что опять же лучше делать бэкендом)
+  // Получаем объект доски по ее id, переданному от роутера в аргумент функции
+  (0,_services_services__WEBPACK_IMPORTED_MODULE_15__.getData)("http://localhost:3000/boards/".concat(currentBoardId)).then(function (board) {
+    // Помещаем объект доски в переменную boardObj,
+    // если доски с таким id не существует, то выполняем reject и отправляем промис в catch (в конце)
+    return new Promise(function (resolve, reject) {
+      if (board.id) {
+        boardObj = JSON.parse(JSON.stringify(board));
+      } else {
+        reject();
+      } // Получаем массив списков, чтобы далее по ID доски выбрать из них те,
+      // которые принадлежат открытой доске (лучше бэкендом)
 
-    var data = (0,_services_services__WEBPACK_IMPORTED_MODULE_11__.getData)('http://localhost:3000/lists');
-    return data;
+
+      var data = (0,_services_services__WEBPACK_IMPORTED_MODULE_15__.getData)('http://localhost:3000/lists');
+      resolve(data);
+    });
   }).then(function (listsArr) {
-    // Составляем массив из листов отображаемой доски по ее ID
+    // Наполняем массив списками отображаемой доски по ее ID
     var _iterator = _createForOfIteratorHelper(listsArr),
         _step;
 
@@ -104,7 +131,9 @@ function boardPage(currentBoardId) {
         if (list.boardId == currentBoardId) {
           boardLists.push(list);
         }
-      }
+      } // Отрисовываем контейнер для списков и кнопки их добавления
+      // со спиннером, закрывающим загрузку списков
+
     } catch (err) {
       _iterator.e(err);
     } finally {
@@ -112,48 +141,148 @@ function boardPage(currentBoardId) {
     }
 
     document.querySelector('.main').innerHTML = '';
-    renderBoardPattern();
-    var addBtn = document.querySelector('.add_list__button'),
-        closeBtn = document.querySelector('.close__btn'),
-        newListForm = document.querySelector('form.new_list__form'),
-        formInput = newListForm.querySelector('.new_list__input');
+    var div = document.createElement('div');
+    div.classList.add('container');
+    div.innerHTML = "\n\t\t\t\t<div class=\"board_name\">\n\t\t\t\t\t<h1>".concat(boardObj.name, "</h1>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"container\">\n\t\t\t\t\t<div class=\"spinner\">\n\t\t\t\t\t\t<img src=\"./img/spinner.svg\" alt=\"minitrello\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"lists_container hide\">\n\t\t\t\t\t\t<div class=\"add_list__button btn_pointer\">\n\t\t\t\t\t\t\t\t<h1>\u041D\u043E\u0432\u044B\u0439 \u0441\u043F\u0438\u0441\u043E\u043A</h1>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<form action=\"#\" class=\"new_list__form hide\">\n\t\t\t\t\t\t\t<input required placeholder=\"\u0421\u043F\u0438\u0441\u043E\u043A ").concat(boardLists.length + 1, "\" name=\"name\" type=\"text\" class=\"new_list__input\">\n\t\t\t\t\t\t\t<div class=\"close__button btn_pointer hide\">&times;</div>\n\t\t\t\t\t\t</form>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t");
+    document.querySelector('.main').append(div);
+    var listsContainer = document.querySelector('.lists_container'),
+        addBtn = listsContainer.querySelector('.add_list__button'),
+        closeBtn = listsContainer.querySelector('.close__button'),
+        newListForm = listsContainer.querySelector('form.new_list__form'),
+        formInput = newListForm.querySelector('.new_list__input'); // Вешаем на контейнер зону сброса для перетаскивания элементов
+
+    setDragover(listsContainer); // Функция для отображения формы добавления нового списка
 
     function showAddForm(event) {
-      if (!event.target.matches('div.close__btn')) {
+      if (!event.target.matches('div.close__button')) {
         closeBtn.classList.remove('hide');
         newListForm.classList.remove('hide');
         formInput.focus();
         addBtn.classList.add('hide');
       }
-    }
+    } // Функция для скрытия формы добавления нового списка
+
 
     function closeAddForm() {
       closeBtn.classList.add('hide');
       newListForm.classList.add('hide');
       addBtn.classList.remove('hide');
       newListForm.reset();
-    }
+    } // Навешиваем обработчики на кнопки для скрытия и отображения формы добавления списка
+
 
     addBtn.addEventListener('click', showAddForm);
-    closeBtn.addEventListener('click', closeAddForm);
-    newListForm.addEventListener('submit', function (event) {
-      event.preventDefault();
-      var newList = new _list__WEBPACK_IMPORTED_MODULE_10__.default(+currentBoardId, formInput.value, 0, addBtn);
-      boardLists.push(newList.postIntoDB());
-      newList.render(document.querySelector('.lists_container'));
-      newListForm.reset(); // добавить в finally
+    closeBtn.addEventListener('click', closeAddForm); // Функия для добавления нового списка по сабмиту формы
 
-      formInput.setAttribute('placeholder', "\u0421\u043F\u0438\u0441\u043E\u043A ".concat(boardLists.length + 1));
-    });
+    newListForm.addEventListener('submit', /*#__PURE__*/function () {
+      var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(event) {
+        var newList;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                event.preventDefault(); // Создаем новый инстанс класса List
 
-    if (boardLists.length) {
-      boardLists.forEach(function (_ref) {
-        var boardId = _ref.boardId,
-            name = _ref.name,
-            id = _ref.id;
-        new _list__WEBPACK_IMPORTED_MODULE_10__.default(boardId, name, id, addBtn).render(document.querySelector('.lists_container'));
-      });
+                newList = new _list__WEBPACK_IMPORTED_MODULE_14__.default(+currentBoardId, formInput.value, 0); // Записываем его в JSON-файл методом postIntoDB,
+
+                _context.next = 4;
+                return newList.postIntoDB() // затем добавляем возвращаемый методом объект нового списка в массив списков
+                .then(function (board) {
+                  boardLists.push(board); // и отрисовываем его на странице методом render, передав контейнер и кнопку,
+                  // перед которой будем помещать список, а также обновляем счетчик списка в placeholder формы
+                }).then(function () {
+                  newList.render(listsContainer, addBtn);
+                  formInput.setAttribute('placeholder', "\u0421\u043F\u0438\u0441\u043E\u043A ".concat(boardLists.length + 1)); // В конце сбрасываем поле формы
+                }).finally(function () {
+                  newListForm.reset();
+                });
+
+              case 4:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }));
+
+      return function (_x) {
+        return _ref.apply(this, arguments);
+      };
+    }()); // Функция для отображения всех списков из заполненного массива
+    // путем последовательного создания инстансов класса List
+    // и отрисовки их методом render
+
+    function renderLists() {
+      return _renderLists.apply(this, arguments);
+    } // Отрисовываем все списки функцией renderLists,
+    // убираем спиннер и отображаем контейенtр со списками снятием класса hide
+
+
+    function _renderLists() {
+      _renderLists = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
+        var _iterator2, _step2, _step2$value, boardId, name, id;
+
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                if (!boardLists.length) {
+                  _context2.next = 18;
+                  break;
+                }
+
+                _iterator2 = _createForOfIteratorHelper(boardLists);
+                _context2.prev = 2;
+
+                _iterator2.s();
+
+              case 4:
+                if ((_step2 = _iterator2.n()).done) {
+                  _context2.next = 10;
+                  break;
+                }
+
+                _step2$value = _step2.value, boardId = _step2$value.boardId, name = _step2$value.name, id = _step2$value.id;
+                _context2.next = 8;
+                return new _list__WEBPACK_IMPORTED_MODULE_14__.default(boardId, name, id).render(listsContainer, addBtn);
+
+              case 8:
+                _context2.next = 4;
+                break;
+
+              case 10:
+                _context2.next = 15;
+                break;
+
+              case 12:
+                _context2.prev = 12;
+                _context2.t0 = _context2["catch"](2);
+
+                _iterator2.e(_context2.t0);
+
+              case 15:
+                _context2.prev = 15;
+
+                _iterator2.f();
+
+                return _context2.finish(15);
+
+              case 18:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, null, [[2, 12, 15, 18]]);
+      }));
+      return _renderLists.apply(this, arguments);
     }
+
+    renderLists().then(function () {
+      div.querySelector('.spinner').remove();
+      listsContainer.classList.remove('hide');
+    }); // Выдаем ошибку, если первый промис не нашел доску с переданным id
+  }).catch(function () {
+    throw new Error('Board does not exist');
   });
 }
 
@@ -181,7 +310,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
 /* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
 
 
 
@@ -190,18 +323,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+ // Функция для создания HTML-шаблона под контент
 
 function renderBoardsPattern() {
   var div = document.createElement('div');
   div.classList.add('container');
-  div.innerHTML = "\n\t\t<div class=\"container_left\">\n\t\t\t<div class=\"add_board__button btn_pointer\">\n\t\t\t\t\t<h1>\u041D\u043E\u0432\u0430\u044F \u0434\u043E\u0441\u043A\u0430</h1>\n\t\t\t\t\t<div class=\"close__btn btn_pointer hide\">&times;</div>\n\t\t\t</div>\n\t\t\t<form action=\"#\" class=\"new_board__form hide\">\n\t\t\t\t<h2>\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0434\u043E\u0441\u043A\u0438</h2>\n\t\t\t\t<input required placeholder=\"\u041C\u043E\u044F \u0434\u043E\u0441\u043A\u0430\" name=\"name\" type=\"text\" class=\"new_board__input\">\n\t\t\t\t<div></div>\n\t\t\t\t<button type=\"button\" class=\"btn btn_grey\">\u041E\u0442\u043C\u0435\u043D\u0430</button>\n\t\t\t\t<button type=\"submit\" class=\"btn btn_green\">\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C</button>\n\t\t\t\t<div class=\"spacer\" style=\"clear: both;\"></div>\n\t\t\t</form>\n\t\t</div>\n\t\t<div class=\"container_right\">\n\t\t\t<h1>\u041C\u043E\u0438 \u0434\u043E\u0441\u043A\u0438</h1>\n\t\t</div>\n\t";
+  div.innerHTML = "\n\t\t<div class=\"container_left\">\n\t\t\t<div class=\"add_board__button btn_pointer\">\n\t\t\t\t\t<h1>\u041D\u043E\u0432\u0430\u044F \u0434\u043E\u0441\u043A\u0430</h1>\n\t\t\t\t\t<div class=\"close__button btn_pointer hide\">&times;</div>\n\t\t\t</div>\n\t\t\t<form action=\"#\" class=\"new_board__form hide\">\n\t\t\t\t<h2>\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0434\u043E\u0441\u043A\u0438</h2>\n\t\t\t\t<input required placeholder=\"\u041C\u043E\u044F \u0434\u043E\u0441\u043A\u0430\" name=\"name\" type=\"text\" class=\"new_board__input\">\n\t\t\t\t<div></div>\n\t\t\t\t<button type=\"button\" class=\"btn btn_grey\">\u041E\u0442\u043C\u0435\u043D\u0430</button>\n\t\t\t\t<button type=\"submit\" class=\"btn btn_green\">\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C</button>\n\t\t\t\t<div class=\"spacer\" style=\"clear: both;\"></div>\n\t\t\t</form>\n\t\t</div>\n\t\t<div class=\"container_right\">\n\t\t\t<h1>\u041C\u043E\u0438 \u0434\u043E\u0441\u043A\u0438:</h1>\n\t\t</div>\n\t";
   document.querySelector('.main').append(div);
 }
 
 function mainPage() {
-  (0,_services_services__WEBPACK_IMPORTED_MODULE_6__.getData)('http://localhost:3000/boards').then(function (request) {
+  // Получаем доски из JSON-файла
+  (0,_services_services__WEBPACK_IMPORTED_MODULE_8__.getData)('http://localhost:3000/boards').then(function (request) {
+    // Отрисовываем шаблон
     document.querySelector('.main').innerHTML = '';
-    renderBoardsPattern();
+    renderBoardsPattern(); // Строим список досок функцией showBoard в правой части страницы
 
     if (request.length) {
       request.forEach(function (_ref) {
@@ -209,35 +346,38 @@ function mainPage() {
             id = _ref.id;
         showBoard(name, id);
       });
-    } else {// const emptyDiv = document.createElement('div');
-      // emptyDiv.innerHTML = 'Здесь пока ничего нет...';
-      // document.querySelector('.container_right').append(emptyDiv);
+    } else {
+      // Если досок нет, то отображаем надпись об их отсутствии
+      document.querySelector('.container_right').innerHTML += "\n\t\t\t\t\t<div class=\"no_boards\">\u0417\u0434\u0435\u0441\u044C \u043F\u043E\u043A\u0430 \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435\u0442...</div>\n\t\t\t\t";
     }
 
     var addBtn = document.querySelector('.add_board__button'),
-        closeBtn = document.querySelector('.close__btn'),
+        closeBtn = document.querySelector('.close__button'),
         newBoardForm = document.querySelector('form.new_board__form'),
-        formInput = newBoardForm.querySelector('.new_board__input');
+        formInput = newBoardForm.querySelector('.new_board__input'); // Функция для отображения существующих досок справа
 
     function showBoard(name, id) {
       var createdBoardAnchor = document.createElement('a'),
-          createdBoard = document.createElement('div');
+          createdBoard = document.createElement('div'); // Обертываем div с названием доски в ссылку, содержащую id доски для его передачи в роутер
+
       createdBoardAnchor.setAttribute('href', "/#/board-".concat(id));
       createdBoardAnchor.classList.add('boards_list');
       createdBoard.innerHTML = "<h1>".concat(name, "</h1>");
       document.querySelector('.container_right').append(createdBoardAnchor);
       createdBoardAnchor.append(createdBoard);
-    }
+    } // Отображение формы создания новой доски
+
 
     function showAddForm(event) {
-      if (!event.target.matches('div.close__btn')) {
+      if (!event.target.matches('div.close__button')) {
         closeBtn.classList.remove('hide');
         newBoardForm.classList.remove('hide');
         formInput.focus();
         addBtn.classList.remove('btn_pointer');
         addBtn.removeEventListener('click', showAddForm);
       }
-    }
+    } // Скрытие формы создания доски
+
 
     function closeAddForm() {
       closeBtn.classList.add('hide');
@@ -245,22 +385,31 @@ function mainPage() {
       addBtn.classList.add('btn_pointer');
       newBoardForm.reset();
       addBtn.addEventListener('click', showAddForm);
-    }
+    } // Навешиваем обработчики событий по клику
+    // для отображения/скрытия формы соответствующими функциями
+
 
     addBtn.addEventListener('click', showAddForm);
     closeBtn.addEventListener('click', closeAddForm);
     document.querySelector('.btn_grey').addEventListener('click', function (event) {
       event.preventDefault();
       closeAddForm();
-    });
+    }); // Функция добавления новой доски по сабмиту формы
+
     newBoardForm.addEventListener('submit', function (event) {
-      event.preventDefault();
+      event.preventDefault(); // Помещаем данные из формы в FormData и конвертируем в JSON
+
       var formData = new FormData(newBoardForm);
-      var json = JSON.stringify(Object.fromEntries(formData.entries()));
-      (0,_services_services__WEBPACK_IMPORTED_MODULE_6__.postData)('http://localhost:3000/boards', json).then(function (newBoardObj) {
+      var json = JSON.stringify(Object.fromEntries(formData.entries())); // Постим данные в JSON-файл в раздел boards,
+      // отображаем доску в списке справа и закрываем форму
+
+      (0,_services_services__WEBPACK_IMPORTED_MODULE_8__.postData)('http://localhost:3000/boards', json).then(function (newBoardObj) {
         showBoard(newBoardObj.name, newBoardObj.id);
-      });
-      closeAddForm();
+      }).finally(closeAddForm); // Убираем надпись об отсутствии досок
+
+      if (document.querySelector('.no_boards')) {
+        document.querySelector('.no_boards').remove();
+      }
     });
   });
 }
@@ -277,7 +426,21 @@ function mainPage() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
+/* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
+
+
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
@@ -285,7 +448,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 
-
+ // Создаем класс для элементов
 
 var Element = /*#__PURE__*/function () {
   function Element(listId, content, elementId, isChecked, position) {
@@ -302,19 +465,22 @@ var Element = /*#__PURE__*/function () {
     }
 
     this.classes = classes;
-  }
+  } // Метод для отрисовки элемента на странице
+
 
   _createClass(Element, [{
     key: "render",
     value: function render(addingForm) {
       var _this = this;
 
+      // Строим структуру HTML-тэгов для отрисовки контейнера элемента
       var listElement = document.createElement('div'),
           elementContent = document.createElement('span'),
           elementCheck = document.createElement('div');
-      elementCheck.classList.add('element_check', 'btn_pointer');
       listElement.classList.add('element');
-      listElement.draggable = true;
+      listElement.setAttribute('data-element-id', this.elementId);
+      listElement.setAttribute('data-position', this.position);
+      listElement.draggable = true; // Присваиваем класс checked согласно значению свойства isChecked
 
       if (this.isChecked == true) {
         listElement.classList.add('checked');
@@ -322,50 +488,78 @@ var Element = /*#__PURE__*/function () {
         listElement.classList.remove('checked');
       }
 
-      elementCheck.innerHTML = '&#10004;';
-      listElement.append(elementCheck);
       elementContent.textContent = this.content;
-      listElement.prepend(elementContent);
-      listElement.setAttribute('data-element-id', this.elementId);
-      listElement.setAttribute('data-position', this.position);
-      addingForm.parentNode.insertBefore(listElement, addingForm.nextSibling);
+      elementCheck.classList.add('element_check', 'btn_pointer');
+      elementCheck.innerHTML = '&#10004;'; // Помещаем на страницу
+
+      listElement.append(elementContent);
+      listElement.append(elementCheck);
+      addingForm.parentNode.insertBefore(listElement, addingForm.nextSibling); // Вещаем обработчик клика на контейнер с галочкой для изменения состояния активности
+
       elementCheck.addEventListener('click', function () {
+        // если элемент активен (содержит класс checked), то удаляем класс
         if (listElement.classList.contains('checked')) {
-          listElement.classList.remove('checked');
+          listElement.classList.remove('checked'); // перезаписываем свойство инстанса isChecked и меняем его в JSON-файле
+
           _this.isChecked = false;
           var json = JSON.stringify({
             isChecked: _this.isChecked
           });
-          (0,_services_services__WEBPACK_IMPORTED_MODULE_0__.patchData)("http://localhost:3000/elements/".concat(_this.elementId), json);
+          (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.patchData)("http://localhost:3000/elements/".concat(_this.elementId), json); // если элемент неактивен (не содержит класс checked), то добавляем класс
         } else {
-          listElement.classList.add('checked');
+          listElement.classList.add('checked'); // перезаписываем свойство инстанса isChecked и меняем его в JSON-файле
+
           _this.isChecked = true;
 
           var _json = JSON.stringify({
             isChecked: _this.isChecked
           });
 
-          (0,_services_services__WEBPACK_IMPORTED_MODULE_0__.patchData)("http://localhost:3000/elements/".concat(_this.elementId), _json);
+          (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.patchData)("http://localhost:3000/elements/".concat(_this.elementId), _json);
         }
       });
-    }
+    } // Метод записи элемента в JSON-файл
+
   }, {
     key: "postIntoDB",
-    value: function postIntoDB() {
-      var _this2 = this;
+    value: function () {
+      var _postIntoDB = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+        var _this2 = this;
 
-      var postedElement = {
-        listId: this.listId,
-        content: this.content,
-        isChecked: this.isChecked,
-        position: this.position
-      };
-      var json = JSON.stringify(postedElement);
-      (0,_services_services__WEBPACK_IMPORTED_MODULE_0__.postData)('http://localhost:3000/elements', json).then(function (newElement) {
-        _this2.elementId = newElement.id;
-        return newElement;
-      });
-    }
+        var postedElement;
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                // Создаем объект со свойствами инстанса,
+                postedElement = {
+                  listId: this.listId,
+                  content: this.content,
+                  isChecked: this.isChecked,
+                  position: this.position
+                }; // конвертируем его в JSON и записываем в JSON-файл
+
+                _context.next = 3;
+                return (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.postData)('http://localhost:3000/elements', JSON.stringify(postedElement)) // после чего полученный из JSON-файла id нового элемента записываем в свойство elementId инстанса
+                .then(function (newElement) {
+                  _this2.elementId = newElement.id;
+                  return newElement;
+                });
+
+              case 3:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee, this);
+      }));
+
+      function postIntoDB() {
+        return _postIntoDB.apply(this, arguments);
+      }
+
+      return postIntoDB;
+    }()
   }]);
 
   return Element;
@@ -383,14 +577,31 @@ var Element = /*#__PURE__*/function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
-/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
-/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.sort.js */ "./node_modules/core-js/modules/es.array.sort.js");
-/* harmony import */ var core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
-/* harmony import */ var _element__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./element */ "./js/modules/element.js");
+/* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
+/* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each.js */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
+/* harmony import */ var core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.sort.js */ "./node_modules/core-js/modules/es.array.sort.js");
+/* harmony import */ var core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_sort_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "./node_modules/core-js/modules/es.object.to-string.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "./node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.promise.finally.js */ "./node_modules/core-js/modules/es.promise.finally.js");
+/* harmony import */ var core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_finally_js__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _services_services__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../services/services */ "./js/services/services.js");
+/* harmony import */ var _element__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./element */ "./js/modules/element.js");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+
+
 
 
 
@@ -404,140 +615,265 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 
 
-
+ // Создаем класс для списков
 
 var List = /*#__PURE__*/function () {
-  function List(boardId, name, listId, btnElement) {
+  function List(boardId, name, listId) {
     _classCallCheck(this, List);
 
     this.boardId = boardId;
     this.name = name;
     this.listId = listId;
-    this.btnElement = btnElement;
 
-    for (var _len = arguments.length, classes = new Array(_len > 4 ? _len - 4 : 0), _key = 4; _key < _len; _key++) {
-      classes[_key - 4] = arguments[_key];
+    for (var _len = arguments.length, classes = new Array(_len > 3 ? _len - 3 : 0), _key = 3; _key < _len; _key++) {
+      classes[_key - 3] = arguments[_key];
     }
 
     this.classes = classes;
     this.elements = [];
-  }
+  } // Метод для отрисовки списка на странице
+
 
   _createClass(List, [{
     key: "render",
-    value: function render(parent) {
-      var _this = this;
+    value: function () {
+      var _render = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee2(parent, addBtn) {
+        var _this = this;
 
-      (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.getData)('http://localhost:3000/elements').then(function (elementsArr) {
-        if (elementsArr.length) {
-          // Заполняем массив элементов текущего списка (опять лучше бэкендом выдавать готовый массив)
-          elementsArr.forEach(function (element) {
-            if (element.listId == _this.listId) {
-              _this.elements.push(element);
+        return regeneratorRuntime.wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                _context2.next = 2;
+                return (0,_services_services__WEBPACK_IMPORTED_MODULE_7__.getData)('http://localhost:3000/elements').then(function (elementsArr) {
+                  if (elementsArr.length) {
+                    // Заполняем в свойстве elements массив элементов текущего списка по его id
+                    elementsArr.forEach(function (element) {
+                      if (element.listId == _this.listId) {
+                        _this.elements.push(element);
+                      }
+                    }); // и сортируем массив по свойству позиции
+
+                    // и сортируем массив по свойству позиции
+                    _this.elements.sort(function (a, b) {
+                      if (a.position > b.position) {
+                        return 1;
+                      }
+
+                      if (a.position < b.position) {
+                        return -1;
+                      }
+
+                      return 0;
+                    });
+                  }
+                }).then(function () {
+                  // Отрисовываем div-контейнер, вписываем имя списка 
+                  var listContainer = document.createElement('div');
+                  listContainer.innerHTML = "\n\t\t\t\t\t<h1>".concat(_this.name, "</h1>\n\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t"); // Присваиваем div-контейнеру css-класс по умолчанию (если не были переданы в ...classes)
+                  // или все классы, переданные в аргумент Rest-оператора ...classes при создании инстанса
+
+                  // Присваиваем div-контейнеру css-класс по умолчанию (если не были переданы в ...classes)
+                  // или все классы, переданные в аргумент Rest-оператора ...classes при создании инстанса
+                  if (_this.classes.length === 0) {
+                    _this.classes = 'list';
+                    listContainer.classList.add(_this.classes);
+                  } else {
+                    _this.classes.forEach(function (className) {
+                      return listContainer.classList.add(className);
+                    });
+                  } // Строим структуру HTML-тэгов для отрисовки контейнера для элементов
+                  // и формы создания нового элемента
+
+
+                  // Строим структуру HTML-тэгов для отрисовки контейнера для элементов
+                  // и формы создания нового элемента
+                  var elementsDiv = document.createElement('div'),
+                      newElementForm = document.createElement('form'),
+                      input = document.createElement('input');
+                  elementsDiv.classList.add('elements');
+                  elementsDiv.setAttribute('data-list-id', _this.listId);
+                  input.classList.add('new_element__input');
+                  input.setAttribute('required', '');
+                  input.setAttribute('placeholder', '');
+                  input.setAttribute('name', 'element_name');
+                  input.setAttribute('type', 'text');
+                  newElementForm.append(input);
+                  elementsDiv.append(newElementForm); // Отображаем все элементы списка из массива свойства elements 
+                  // путем последовательного создания инстансов класса Element
+                  // и отрисовки методом render перед формой создания нового элемента
+
+                  // Отображаем все элементы списка из массива свойства elements 
+                  // путем последовательного создания инстансов класса Element
+                  // и отрисовки методом render перед формой создания нового элемента
+                  if (_this.elements.length) {
+                    _this.elements.forEach(function (_ref) {
+                      var listId = _ref.listId,
+                          content = _ref.content,
+                          id = _ref.id,
+                          isChecked = _ref.isChecked,
+                          position = _ref.position;
+                      new _element__WEBPACK_IMPORTED_MODULE_8__.default(listId, content, id, isChecked, position).render(newElementForm);
+                    });
+                  } // Помещаем все на страницу в контейнер, переданный при вызове метода
+
+
+                  // Помещаем все на страницу в контейнер, переданный при вызове метода
+                  listContainer.append(elementsDiv);
+                  parent.insertBefore(listContainer, addBtn); // Добавляем пустой контейнер для возможности перетаскивания с помощью него
+                  // элементов в пустой список, когда нет ориентировочных элементов для сброса перетаскиваемого
+
+                  // Добавляем пустой контейнер для возможности перетаскивания с помощью него
+                  // элементов в пустой список, когда нет ориентировочных элементов для сброса перетаскиваемого
+                  var emptyDiv = document.createElement('div');
+                  emptyDiv.classList.add('empty_element');
+                  emptyDiv.style.height = '10px';
+                  elementsDiv.append(emptyDiv); //  Функия для добавления нового элемента по сабмиту формы
+
+                  //  Функия для добавления нового элемента по сабмиту формы
+                  newElementForm.addEventListener('submit', /*#__PURE__*/function () {
+                    var _ref2 = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(event) {
+                      var position, newElement;
+                      return regeneratorRuntime.wrap(function _callee$(_context) {
+                        while (1) {
+                          switch (_context.prev = _context.next) {
+                            case 0:
+                              event.preventDefault(); // Определяем свойство позиции нового элемента
+                              // путем подсчета кол-ва существующих элементов в списке
+
+                              // Определяем свойство позиции нового элемента
+                              // путем подсчета кол-ва существующих элементов в списке
+                              position = elementsDiv.querySelectorAll('.element').length + 1; // Создаем новый инстанс класса Element
+
+                              // Создаем новый инстанс класса Element
+                              newElement = new _element__WEBPACK_IMPORTED_MODULE_8__.default(_this.listId, input.value, 0, false, position); // Записываем его в JSON-файл методом postIntoDB
+
+                              _context.next = 5;
+                              return newElement.postIntoDB() // затем добавляем возвращаемый методом объект нового элемента в массив свойства с элементами
+                              .then(function (element) {
+                                _this.elements.push(element); // и отрисовываем его на странице методом render, передав форму, перед которой поместим его
+
+                              }).then(function () {
+                                newElement.render(newElementForm); // В конце сбрасываем поле формы
+                              }).finally(function () {
+                                newElementForm.reset();
+                              });
+
+                            case 5:
+                            case "end":
+                              return _context.stop();
+                          }
+                        }
+                      }, _callee);
+                    }));
+
+                    return function (_x3) {
+                      return _ref2.apply(this, arguments);
+                    };
+                  }()); // Вешаем на контейнер с элементами событие dragstart, отслеживающее начало перетаскивания,
+                  // для обозначения классом selected перетаскиваемого элемента
+                  // (нужно в т.ч. для работы функции setDragover в board.js)
+
+                  // Вешаем на контейнер с элементами событие dragstart, отслеживающее начало перетаскивания,
+                  // для обозначения классом selected перетаскиваемого элемента
+                  // (нужно в т.ч. для работы функции setDragover в board.js)
+                  elementsDiv.addEventListener('dragstart', function (event) {
+                    event.target.classList.add('selected');
+                  }); // и событие dragend, отслеживающее окончание перетаскивания,
+                  // для снятия класса selected и последующей вставки элемента
+
+                  // и событие dragend, отслеживающее окончание перетаскивания,
+                  // для снятия класса selected и последующей вставки элемента
+                  elementsDiv.addEventListener('dragend', function (event) {
+                    event.target.classList.remove('selected'); // Конвертируем в JSON объект, в который записываем свойство listID
+                    // (id списка, которому принадлежит элемент) со значением нового id списка,
+                    // в который был перемещен элемент, полученного по атрибуту data-list-id этого списка,
+                    // после чего меняем это свойство у перемещаемого элемента, обращаясь к нему
+                    // в JSON-файле по id, записанному в атрибут data-element-id элемента
+
+                    // Конвертируем в JSON объект, в который записываем свойство listID
+                    // (id списка, которому принадлежит элемент) со значением нового id списка,
+                    // в который был перемещен элемент, полученного по атрибуту data-list-id этого списка,
+                    // после чего меняем это свойство у перемещаемого элемента, обращаясь к нему
+                    // в JSON-файле по id, записанному в атрибут data-element-id элемента
+                    var json = JSON.stringify({
+                      listId: +event.target.parentNode.getAttribute('data-list-id')
+                    });
+                    (0,_services_services__WEBPACK_IMPORTED_MODULE_7__.patchData)("http://localhost:3000/elements/".concat(event.target.getAttribute('data-element-id')), json); // Переписываем всем элементам значение атрибута позиции
+                    // (элементы позиционируются снизу вверх, поэтому вычитаем в цикле счетчик i из общего кол-ва)
+
+                    // Переписываем всем элементам значение атрибута позиции
+                    // (элементы позиционируются снизу вверх, поэтому вычитаем в цикле счетчик i из общего кол-ва)
+                    var allListElements = event.target.parentNode.querySelectorAll('.element');
+                    allListElements.forEach(function (element, i) {
+                      element.setAttribute('data-position', allListElements.length - i); // и записываем новые позиции всем этим элементам в JSON-файл,
+                      // переписывая свойство position и обращаясь по id,
+                      // записанному в атрибут data-element-id каждого элемента
+
+                      // и записываем новые позиции всем этим элементам в JSON-файл,
+                      // переписывая свойство position и обращаясь по id,
+                      // записанному в атрибут data-element-id каждого элемента
+                      var json = JSON.stringify({
+                        position: allListElements.length - i
+                      });
+                      (0,_services_services__WEBPACK_IMPORTED_MODULE_7__.patchData)("http://localhost:3000/elements/".concat(element.getAttribute('data-element-id')), json);
+                    });
+                  });
+                });
+
+              case 2:
+              case "end":
+                return _context2.stop();
             }
-          }); // Сортируем массив по свойству позиции
+          }
+        }, _callee2);
+      }));
 
-          _this.elements.sort(function (a, b) {
-            if (a.position > b.position) {
-              return 1;
-            }
+      function render(_x, _x2) {
+        return _render.apply(this, arguments);
+      }
 
-            if (a.position < b.position) {
-              return -1;
-            }
+      return render;
+    }() // Метод записи списка в JSON-файл
 
-            return 0;
-          });
-        }
-      }).then(function () {
-        var listContainer = document.createElement('div'); // Присваиваем css-класс по умолчанию, если они не были переданы в аргумент Rest-оператора
-
-        if (_this.classes.length === 0) {
-          _this.classes = 'list';
-          listContainer.classList.add(_this.classes);
-        } else {
-          _this.classes.forEach(function (className) {
-            return listContainer.classList.add(className);
-          });
-        }
-
-        listContainer.innerHTML = "\n\t\t\t\t\t<h1>".concat(_this.name, "</h1>\n\t\t\t\t\t<div class=\"divider\"></div>\n\t\t\t\t");
-        var elementsDiv = document.createElement('div'),
-            newElementForm = document.createElement('form'),
-            input = document.createElement('input');
-        elementsDiv.classList.add('elements');
-        elementsDiv.setAttribute('data-list-id', _this.listId);
-        input.classList.add('new_element__input');
-        input.setAttribute('required', '');
-        input.setAttribute('placeholder', '');
-        input.setAttribute('name', 'element_name');
-        input.setAttribute('type', 'text');
-        newElementForm.append(input);
-        elementsDiv.append(newElementForm);
-
-        if (_this.elements) {
-          _this.elements.forEach(function (_ref) {
-            var listId = _ref.listId,
-                content = _ref.content,
-                id = _ref.id,
-                isChecked = _ref.isChecked,
-                position = _ref.position;
-            new _element__WEBPACK_IMPORTED_MODULE_4__.default(listId, content, id, isChecked, position).render(newElementForm);
-          });
-        }
-
-        listContainer.append(elementsDiv);
-        parent.insertBefore(listContainer, _this.btnElement);
-        var emptyDiv = document.createElement('div');
-        emptyDiv.classList.add('empty_element');
-        emptyDiv.style.height = '10px';
-        elementsDiv.append(emptyDiv);
-        newElementForm.addEventListener('submit', function (event) {
-          event.preventDefault();
-          var position = elementsDiv.querySelectorAll('.element').length + 1;
-          var newElement = new _element__WEBPACK_IMPORTED_MODULE_4__.default(_this.listId, input.value, 0, false, position);
-
-          _this.elements.push(newElement.postIntoDB());
-
-          newElementForm.reset(); // добавить в finally
-
-          newElement.render(newElementForm);
-        });
-        elementsDiv.addEventListener('dragstart', function (event) {
-          event.target.classList.add('selected');
-        });
-        elementsDiv.addEventListener('dragend', function (event) {
-          event.target.classList.remove('selected');
-          var json = JSON.stringify({
-            listId: +event.target.parentNode.getAttribute('data-list-id')
-          });
-          (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.patchData)("http://localhost:3000/elements/".concat(event.target.getAttribute('data-element-id')), json);
-          var allListElements = event.target.parentNode.querySelectorAll('.element');
-          allListElements.forEach(function (element, i) {
-            element.setAttribute('data-position', allListElements.length - i);
-            var json = JSON.stringify({
-              position: allListElements.length - i
-            });
-            (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.patchData)("http://localhost:3000/elements/".concat(element.getAttribute('data-element-id')), json);
-          });
-        });
-      });
-    }
   }, {
     key: "postIntoDB",
-    value: function postIntoDB() {
-      var _this2 = this;
+    value: function () {
+      var _postIntoDB = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+        var _this2 = this;
 
-      var postedList = {
-        boardId: this.boardId,
-        name: this.name
-      };
-      var json = JSON.stringify(postedList);
-      (0,_services_services__WEBPACK_IMPORTED_MODULE_3__.postData)('http://localhost:3000/lists', json).then(function (newList) {
-        _this2.listId = newList.id;
-        return newList;
-      });
-    }
+        var postedList;
+        return regeneratorRuntime.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                // Создаем объект со свойствами инстанса,
+                postedList = {
+                  boardId: this.boardId,
+                  name: this.name
+                }; // конвертируем его в JSON и записываем в JSON-файл
+
+                _context3.next = 3;
+                return (0,_services_services__WEBPACK_IMPORTED_MODULE_7__.postData)('http://localhost:3000/lists', JSON.stringify(postedList)) // после чего полученный из JSON-файла id нового списка записываем в свойство listId инстанса
+                .then(function (newList) {
+                  _this2.listId = newList.id;
+                  return newList;
+                });
+
+              case 3:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3, this);
+      }));
+
+      function postIntoDB() {
+        return _postIntoDB.apply(this, arguments);
+      }
+
+      return postIntoDB;
+    }()
   }]);
 
   return List;
@@ -695,7 +1031,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getData": function() { return /* binding */ getData; },
 /* harmony export */   "postData": function() { return /* binding */ postData; },
-/* harmony export */   "putData": function() { return /* binding */ putData; },
 /* harmony export */   "patchData": function() { return /* binding */ patchData; }
 /* harmony export */ });
 /* harmony import */ var regenerator_runtime_runtime_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! regenerator-runtime/runtime.js */ "./node_modules/regenerator-runtime/runtime.js");
@@ -727,14 +1062,7 @@ function _getData() {
         switch (_context.prev = _context.next) {
           case 0:
             _context.next = 2;
-            return fetch(url, {
-              method: 'GET',
-              headers: {
-                'Content-type': 'application/json',
-                'Cache-Control': 'no-cache, no-store, must-revalidate',
-                'Pragma': 'no-cache'
-              }
-            });
+            return fetch(url);
 
           case 2:
             res = _context.sent;
@@ -801,12 +1129,12 @@ function _postData() {
   return _postData.apply(this, arguments);
 }
 
-function putData(_x4, _x5) {
-  return _putData.apply(this, arguments);
+function patchData(_x4, _x5) {
+  return _patchData.apply(this, arguments);
 }
 
-function _putData() {
-  _putData = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(url, data) {
+function _patchData() {
+  _patchData = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3(url, data) {
     var res;
     return regeneratorRuntime.wrap(function _callee3$(_context3) {
       while (1) {
@@ -814,7 +1142,7 @@ function _putData() {
           case 0:
             _context3.next = 2;
             return fetch(url, {
-              method: 'PUT',
+              method: 'PATCH',
               headers: {
                 'Content-type': 'application/json'
               },
@@ -836,47 +1164,8 @@ function _putData() {
       }
     }, _callee3);
   }));
-  return _putData.apply(this, arguments);
-}
-
-function patchData(_x6, _x7) {
   return _patchData.apply(this, arguments);
 }
-
-function _patchData() {
-  _patchData = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4(url, data) {
-    var res;
-    return regeneratorRuntime.wrap(function _callee4$(_context4) {
-      while (1) {
-        switch (_context4.prev = _context4.next) {
-          case 0:
-            _context4.next = 2;
-            return fetch(url, {
-              method: 'PATCH',
-              headers: {
-                'Content-type': 'application/json'
-              },
-              body: data
-            });
-
-          case 2:
-            res = _context4.sent;
-            _context4.next = 5;
-            return res.json();
-
-          case 5:
-            return _context4.abrupt("return", _context4.sent);
-
-          case 6:
-          case "end":
-            return _context4.stop();
-        }
-      }
-    }, _callee4);
-  }));
-  return _patchData.apply(this, arguments);
-}
-
 
 
 
@@ -4745,6 +5034,56 @@ if (!TO_STRING_TAG_SUPPORT) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/modules/es.promise.finally.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/modules/es.promise.finally.js ***!
+  \************************************************************/
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__(/*! ../internals/export */ "./node_modules/core-js/internals/export.js");
+var IS_PURE = __webpack_require__(/*! ../internals/is-pure */ "./node_modules/core-js/internals/is-pure.js");
+var NativePromise = __webpack_require__(/*! ../internals/native-promise-constructor */ "./node_modules/core-js/internals/native-promise-constructor.js");
+var fails = __webpack_require__(/*! ../internals/fails */ "./node_modules/core-js/internals/fails.js");
+var getBuiltIn = __webpack_require__(/*! ../internals/get-built-in */ "./node_modules/core-js/internals/get-built-in.js");
+var speciesConstructor = __webpack_require__(/*! ../internals/species-constructor */ "./node_modules/core-js/internals/species-constructor.js");
+var promiseResolve = __webpack_require__(/*! ../internals/promise-resolve */ "./node_modules/core-js/internals/promise-resolve.js");
+var redefine = __webpack_require__(/*! ../internals/redefine */ "./node_modules/core-js/internals/redefine.js");
+
+// Safari bug https://bugs.webkit.org/show_bug.cgi?id=200829
+var NON_GENERIC = !!NativePromise && fails(function () {
+  NativePromise.prototype['finally'].call({ then: function () { /* empty */ } }, function () { /* empty */ });
+});
+
+// `Promise.prototype.finally` method
+// https://tc39.es/ecma262/#sec-promise.prototype.finally
+$({ target: 'Promise', proto: true, real: true, forced: NON_GENERIC }, {
+  'finally': function (onFinally) {
+    var C = speciesConstructor(this, getBuiltIn('Promise'));
+    var isFunction = typeof onFinally == 'function';
+    return this.then(
+      isFunction ? function (x) {
+        return promiseResolve(C, onFinally()).then(function () { return x; });
+      } : onFinally,
+      isFunction ? function (e) {
+        return promiseResolve(C, onFinally()).then(function () { throw e; });
+      } : onFinally
+    );
+  }
+});
+
+// makes sure that native promise-based APIs `Promise#finally` properly works with patched `Promise#then`
+if (!IS_PURE && typeof NativePromise == 'function') {
+  var method = getBuiltIn('Promise').prototype['finally'];
+  if (NativePromise.prototype['finally'] !== method) {
+    redefine(NativePromise.prototype, 'finally', method, { unsafe: true });
+  }
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/modules/es.promise.js":
 /*!****************************************************!*\
   !*** ./node_modules/core-js/modules/es.promise.js ***!
@@ -7697,6 +8036,39 @@ if (!global.fetch) {
 }
 
 
+/***/ }),
+
+/***/ "./node_modules/formdata-polyfill/formdata.min.js":
+/*!********************************************************!*\
+  !*** ./node_modules/formdata-polyfill/formdata.min.js ***!
+  \********************************************************/
+/***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/*! formdata-polyfill. MIT License. Jimmy Wärting <https://jimmy.warting.se/opensource> */
+;(function(){var h;function l(a){var c=0;return function(){return c<a.length?{done:!1,value:a[c++]}:{done:!0}}}var m="function"==typeof Object.defineProperties?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a};
+function n(a){a=["object"==typeof globalThis&&globalThis,a,"object"==typeof window&&window,"object"==typeof self&&self,"object"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error("Cannot find global object");}var q=n(this);function r(a,c){if(c)a:{for(var b=q,d=a.split("."),e=0;e<d.length-1;e++){var f=d[e];if(!(f in b))break a;b=b[f]}d=d[d.length-1];e=b[d];f=c(e);f!=e&&null!=f&&m(b,d,{configurable:!0,writable:!0,value:f})}}
+r("Symbol",function(a){function c(f){if(this instanceof c)throw new TypeError("Symbol is not a constructor");return new b(d+(f||"")+"_"+e++,f)}function b(f,g){this.A=f;m(this,"description",{configurable:!0,writable:!0,value:g})}if(a)return a;b.prototype.toString=function(){return this.A};var d="jscomp_symbol_"+(1E9*Math.random()>>>0)+"_",e=0;return c});
+r("Symbol.iterator",function(a){if(a)return a;a=Symbol("Symbol.iterator");for(var c="Array Int8Array Uint8Array Uint8ClampedArray Int16Array Uint16Array Int32Array Uint32Array Float32Array Float64Array".split(" "),b=0;b<c.length;b++){var d=q[c[b]];"function"===typeof d&&"function"!=typeof d.prototype[a]&&m(d.prototype,a,{configurable:!0,writable:!0,value:function(){return u(l(this))}})}return a});function u(a){a={next:a};a[Symbol.iterator]=function(){return this};return a}
+function v(a){var c="undefined"!=typeof Symbol&&Symbol.iterator&&a[Symbol.iterator];return c?c.call(a):{next:l(a)}}var w;if("function"==typeof Object.setPrototypeOf)w=Object.setPrototypeOf;else{var y;a:{var z={a:!0},A={};try{A.__proto__=z;y=A.a;break a}catch(a){}y=!1}w=y?function(a,c){a.__proto__=c;if(a.__proto__!==c)throw new TypeError(a+" is not extensible");return a}:null}var B=w;function C(){this.m=!1;this.j=null;this.v=void 0;this.h=1;this.u=this.C=0;this.l=null}
+function D(a){if(a.m)throw new TypeError("Generator is already running");a.m=!0}C.prototype.o=function(a){this.v=a};C.prototype.s=function(a){this.l={D:a,F:!0};this.h=this.C||this.u};C.prototype["return"]=function(a){this.l={"return":a};this.h=this.u};function E(a,c){a.h=3;return{value:c}}function F(a){this.g=new C;this.G=a}F.prototype.o=function(a){D(this.g);if(this.g.j)return G(this,this.g.j.next,a,this.g.o);this.g.o(a);return H(this)};
+function I(a,c){D(a.g);var b=a.g.j;if(b)return G(a,"return"in b?b["return"]:function(d){return{value:d,done:!0}},c,a.g["return"]);a.g["return"](c);return H(a)}F.prototype.s=function(a){D(this.g);if(this.g.j)return G(this,this.g.j["throw"],a,this.g.o);this.g.s(a);return H(this)};
+function G(a,c,b,d){try{var e=c.call(a.g.j,b);if(!(e instanceof Object))throw new TypeError("Iterator result "+e+" is not an object");if(!e.done)return a.g.m=!1,e;var f=e.value}catch(g){return a.g.j=null,a.g.s(g),H(a)}a.g.j=null;d.call(a.g,f);return H(a)}function H(a){for(;a.g.h;)try{var c=a.G(a.g);if(c)return a.g.m=!1,{value:c.value,done:!1}}catch(b){a.g.v=void 0,a.g.s(b)}a.g.m=!1;if(a.g.l){c=a.g.l;a.g.l=null;if(c.F)throw c.D;return{value:c["return"],done:!0}}return{value:void 0,done:!0}}
+function J(a){this.next=function(c){return a.o(c)};this["throw"]=function(c){return a.s(c)};this["return"]=function(c){return I(a,c)};this[Symbol.iterator]=function(){return this}}function K(a,c){var b=new J(new F(c));B&&a.prototype&&B(b,a.prototype);return b}
+if("undefined"!==typeof Blob&&("undefined"===typeof FormData||!FormData.prototype.keys)){var L=function(a,c){for(var b=0;b<a.length;b++)c(a[b])},M=function(a){return a.replace(/\r?\n|\r/g,"\r\n")},N=function(a,c,b){if(c instanceof Blob){b=void 0!==b?String(b+""):"string"===typeof c.name?c.name:"blob";if(c.name!==b||"[object Blob]"===Object.prototype.toString.call(c))c=new File([c],b);return[String(a),c]}return[String(a),String(c)]},O=function(a,c){if(a.length<c)throw new TypeError(c+" argument required, but only "+
+a.length+" present.");},P="object"===typeof globalThis?globalThis:"object"===typeof window?window:"object"===typeof self?self:this,Q=P.FormData,R=P.XMLHttpRequest&&P.XMLHttpRequest.prototype.send,S=P.Request&&P.fetch,T=P.navigator&&P.navigator.sendBeacon,U=P.Element&&P.Element.prototype,V=P.Symbol&&Symbol.toStringTag;V&&(Blob.prototype[V]||(Blob.prototype[V]="Blob"),"File"in P&&!File.prototype[V]&&(File.prototype[V]="File"));try{new File([],"")}catch(a){P.File=function(c,b,d){c=new Blob(c,d||{});
+Object.defineProperties(c,{name:{value:b},lastModified:{value:+(d&&void 0!==d.lastModified?new Date(d.lastModified):new Date)},toString:{value:function(){return"[object File]"}}});V&&Object.defineProperty(c,V,{value:"File"});return c}}var escape=function(a){return a.replace(/\n/g,"%0A").replace(/\r/g,"%0D").replace(/"/g,"%22")},W=function(a){this.i=[];var c=this;a&&L(a.elements,function(b){if(b.name&&!b.disabled&&"submit"!==b.type&&"button"!==b.type&&!b.matches("form fieldset[disabled] *"))if("file"===
+b.type){var d=b.files&&b.files.length?b.files:[new File([],"",{type:"application/octet-stream"})];L(d,function(e){c.append(b.name,e)})}else"select-multiple"===b.type||"select-one"===b.type?L(b.options,function(e){!e.disabled&&e.selected&&c.append(b.name,e.value)}):"checkbox"===b.type||"radio"===b.type?b.checked&&c.append(b.name,b.value):(d="textarea"===b.type?M(b.value):b.value,c.append(b.name,d))})};h=W.prototype;h.append=function(a,c,b){O(arguments,2);this.i.push(N(a,c,b))};h["delete"]=function(a){O(arguments,
+1);var c=[];a=String(a);L(this.i,function(b){b[0]!==a&&c.push(b)});this.i=c};h.entries=function c(){var b,d=this;return K(c,function(e){1==e.h&&(b=0);if(3!=e.h)return b<d.i.length?e=E(e,d.i[b]):(e.h=0,e=void 0),e;b++;e.h=2})};h.forEach=function(c,b){O(arguments,1);for(var d=v(this),e=d.next();!e.done;e=d.next()){var f=v(e.value);e=f.next().value;f=f.next().value;c.call(b,f,e,this)}};h.get=function(c){O(arguments,1);var b=this.i;c=String(c);for(var d=0;d<b.length;d++)if(b[d][0]===c)return b[d][1];
+return null};h.getAll=function(c){O(arguments,1);var b=[];c=String(c);L(this.i,function(d){d[0]===c&&b.push(d[1])});return b};h.has=function(c){O(arguments,1);c=String(c);for(var b=0;b<this.i.length;b++)if(this.i[b][0]===c)return!0;return!1};h.keys=function b(){var d=this,e,f,g,k,p;return K(b,function(t){1==t.h&&(e=v(d),f=e.next());if(3!=t.h){if(f.done){t.h=0;return}g=f.value;k=v(g);p=k.next().value;return E(t,p)}f=e.next();t.h=2})};h.set=function(b,d,e){O(arguments,2);b=String(b);var f=[],g=N(b,
+d,e),k=!0;L(this.i,function(p){p[0]===b?k&&(k=!f.push(g)):f.push(p)});k&&f.push(g);this.i=f};h.values=function d(){var e=this,f,g,k,p,t;return K(d,function(x){1==x.h&&(f=v(e),g=f.next());if(3!=x.h){if(g.done){x.h=0;return}k=g.value;p=v(k);p.next();t=p.next().value;return E(x,t)}g=f.next();x.h=2})};W.prototype._asNative=function(){for(var d=new Q,e=v(this),f=e.next();!f.done;f=e.next()){var g=v(f.value);f=g.next().value;g=g.next().value;d.append(f,g)}return d};W.prototype._blob=function(){var d="----formdata-polyfill-"+
+Math.random(),e=[],f="--"+d+'\r\nContent-Disposition: form-data; name="';this.forEach(function(g,k){return"string"==typeof g?e.push(f+escape(M(k))+('"\r\n\r\n'+M(g)+"\r\n")):e.push(f+escape(M(k))+('"; filename="'+escape(g.name)+'"\r\nContent-Type: '+(g.type||"application/octet-stream")+"\r\n\r\n"),g,"\r\n")});e.push("--"+d+"--");return new Blob(e,{type:"multipart/form-data; boundary="+d})};W.prototype[Symbol.iterator]=function(){return this.entries()};W.prototype.toString=function(){return"[object FormData]"};
+U&&!U.matches&&(U.matches=U.matchesSelector||U.mozMatchesSelector||U.msMatchesSelector||U.oMatchesSelector||U.webkitMatchesSelector||function(d){d=(this.document||this.ownerDocument).querySelectorAll(d);for(var e=d.length;0<=--e&&d.item(e)!==this;);return-1<e});V&&(W.prototype[V]="FormData");if(R){var X=P.XMLHttpRequest.prototype.setRequestHeader;P.XMLHttpRequest.prototype.setRequestHeader=function(d,e){X.call(this,d,e);"content-type"===d.toLowerCase()&&(this.B=!0)};P.XMLHttpRequest.prototype.send=
+function(d){d instanceof W?(d=d._blob(),this.B||this.setRequestHeader("Content-Type",d.type),R.call(this,d)):R.call(this,d)}}S&&(P.fetch=function(d,e){e&&e.body&&e.body instanceof W&&(e.body=e.body._blob());return S.call(this,d,e)});T&&(P.navigator.sendBeacon=function(d,e){e instanceof W&&(e=e._asNative());return T.call(this,d,e)});P.FormData=W};
+})();
+
+
 /***/ })
 
 /******/ 	});
@@ -7789,28 +8161,31 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var cross_browser_polyfill__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! cross-browser-polyfill */ "./node_modules/cross-browser-polyfill/src/index.js");
 /* harmony import */ var whatwg_fetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! whatwg-fetch */ "./node_modules/whatwg-fetch/fetch.js");
-/* harmony import */ var _services_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./services/Router */ "./js/services/Router.js");
-/* harmony import */ var _modules_boards_main__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/boards-main */ "./js/modules/boards-main.js");
-/* harmony import */ var _modules_board__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/board */ "./js/modules/board.js");
-// Import polyfills
+/* harmony import */ var formdata_polyfill__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! formdata-polyfill */ "./node_modules/formdata-polyfill/formdata.min.js");
+/* harmony import */ var _services_Router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./services/Router */ "./js/services/Router.js");
+/* harmony import */ var _modules_boards_main__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/boards-main */ "./js/modules/boards-main.js");
+/* harmony import */ var _modules_board__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/board */ "./js/modules/board.js");
+// Подключаем полифиллы для IE
 
 (0,cross_browser_polyfill__WEBPACK_IMPORTED_MODULE_0__.default)();
- // Import the Router
 
- // Import main page module
+ // Подключаем роутер
+
+ // Подключаем функции отображения главной страницы и страницы доски
 
 
+ // Инициализируем роутер
 
-var router = new _services_Router__WEBPACK_IMPORTED_MODULE_2__.default({
+var router = new _services_Router__WEBPACK_IMPORTED_MODULE_3__.default({
   mode: 'hash',
   root: '/'
 });
-router.add(/board-(.*)/, function (boardId) {
-  (0,_modules_board__WEBPACK_IMPORTED_MODULE_4__.default)(boardId);
-}).add('', function () {
-  // general controller
-  console.log('welcome in catch all controller');
-  (0,_modules_boards_main__WEBPACK_IMPORTED_MODULE_3__.default)();
+router // Если передается адрес доски с ее id, то выполняем функцию отображения доски с передачей данного id
+.add(/board-(.*)/, function (boardId) {
+  (0,_modules_board__WEBPACK_IMPORTED_MODULE_5__.default)(boardId);
+}) // Если адрес не передается, выполняем функцию отображения главной страницы
+.add('', function () {
+  (0,_modules_boards_main__WEBPACK_IMPORTED_MODULE_4__.default)();
 });
 }();
 /******/ })()

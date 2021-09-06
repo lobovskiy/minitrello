@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "browserslist": [
-    "> 0.25%, not dead"
+    "last 2 version",
+    "> 1%",
+    "not dead"
   ],
   "devDependencies": {
     "@babel/cli": "^7.14.8",
@@ -24,6 +26,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "cross-browser-polyfill": "^1.0.5",
+    "formdata-polyfill": "^4.0.6",
     "whatwg-fetch": "^3.6.2"
   }
 }
